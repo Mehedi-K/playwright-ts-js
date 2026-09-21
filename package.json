@@ -1,0 +1,29 @@
+{
+  "name": "playwright-ts-js",
+  "version": "1.0.0",
+  "description": "Playwright test automation project (TypeScript + JavaScript) covering UI tests against saucedemo.com and API tests against reqres.in",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api",
+    "test:js": "playwright test tests-js",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "javascript",
+    "test-automation",
+    "e2e",
+    "api-testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.7.0"
+  }
+}
